@@ -1,7 +1,7 @@
 /*
  * @Author: verandert
  * @Date: 2020-05-12 16:36:53
- * @LastEditTime: 2020-05-13 14:29:20
+ * @LastEditTime: 2020-05-13 14:32:28
  * @Description: Red-Black Tree
  */
 #include<stdio.h>
@@ -152,7 +152,9 @@ void InsertRbt(Rbtree *T, elemtype key, int found, Rbtree *result, Rbtree *Inser
         }
     }
 }
-
+/**
+ * @Description: function INSERTRBT
+ */
 void INSERTRBT(Rbtree *T, elemtype key){
     Rbtree result, insert;
     int found;
